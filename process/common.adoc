@@ -19,7 +19,7 @@
 === Gmail
 
 * Зарегистрироваться.
-* Подписаться на *YouTube* канал: link:https://www.youtube.com/channel/UCIztUGTxSCyqksE3HxFgI_w[Dmitry Rakovets].
+* Подписаться на *YouTube* канал: link:https://www.youtube.com/channel/UCIztUGTxSCyqksE3HxFgI_w[Dmitry Rakovets^].
 * Отправить сообщение тренеру в Telegram, которое содержит Ваш *email* (ТОЛЬКО *gmail*).
 ** На этот *email*, предоставляется доступ к закрытым видео на *YouTube*, если таковые имеются.
 * Ожидать доступа к *электронному журналу*, который содержит текущие отметки.
@@ -27,7 +27,7 @@
 === GitHub
 
 * Зарегистрироваться.
-* Подписаться на пользователя: link:https://www.github.com/rakovets[Dmitry Rakovets].
+* Подписаться на пользователя: link:https://www.github.com/rakovets[Dmitry Rakovets^].
 * Поставить *star* для репозиториев:
 ** `wiki`
 ** `presentation`
@@ -35,4 +35,4 @@
 === LinkedIn
 
 * Зарегистрироваться.
-* Отправить `Connect` пользователю: link:https://www.linkedin.com/in/rakovets/[Dmitry Rakovets].
+* Отправить `Connect` пользователю: link:https://www.linkedin.com/in/rakovets/[Dmitry Rakovets^].
