@@ -3,4 +3,10 @@
 :imagesdir: /assets/img
 :toc: left
 
+Данная документация описывает процесс взаимодействия во время занятий. Она содержит:
+
+* общий процесс, независящий от курса
+* процессы взаимодействия для конкретного курса
+
 include::{includedir}/process/common.adoc[leveloffset=1]
+include::{includedir}/process/course-java-core.adoc[leveloffset=1]
