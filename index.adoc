@@ -1,0 +1,6 @@
+= Process
+:includedir: .
+:imagesdir: /assets/img
+:toc: left
+
+include::{includedir}/process/common.adoc[leveloffset=1]
