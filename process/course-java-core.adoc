@@ -18,7 +18,7 @@
 * *One lesson* ~ *One or more themes* ~ *Many practice tasks* ~ *One branch with theme name*.
 * *Branch* (ветка) для *theme* (тема) содержит стартовый код для текущей темы.
 * Выполнение задания по какой-то `theme` происходит ТОЛЬКО в соответствующем `branch`.
-* Теоретический материал будет в печатном виде и в виде онлайн-документации.
+* Теоретический материал будет в печатном виде и в виде онлайн-документации (link:https://wiki-gl.dmitryrakovets.com/[wiki]).
 
 == Terminologies and abbreviations.
 
