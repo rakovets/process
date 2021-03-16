@@ -1,6 +1,15 @@
 = Course 'Java Core'
 :imagesdir: ../assets/img
 
+== Terminologies and abbreviations.
+
+* *GUI* - *Graphical User Interface*/*Графический интерфейс пользователя*.
+* *fork* - сделать копию данного репозитория в свои репозитории.
+* *branch*/*ветка* - параллельная, независимая копия кода.
+* *remote repository* - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).
+
+== Intro
+
 * Программное обеспечение, которое будет использоваться в процессе, находится в блоке *Software*.
 * Задания будут выполняться в репозиториях:
 ** `course-java-core`
@@ -9,6 +18,7 @@
 * *One lesson* ~ *One or more themes* ~ *Many practice tasks* ~ *One branch with theme name*.
 * *Branch* (ветка) для *theme* (тема) содержит стартовый код для текущей темы.
 * Выполнение задания по какой-то `theme` происходит ТОЛЬКО в соответствующем `branch`.
+* Теоретический материал будет в печатном виде и в виде онлайн-документации (link:https://wiki-gl.dmitryrakovets.com/[wiki]).
 
 == Terminologies and abbreviations.
 
