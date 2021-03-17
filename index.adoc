@@ -9,4 +9,4 @@
 * процессы взаимодействия для конкретного курса
 
 include::{includedir}/process/common.adoc[leveloffset=1]
-include::{includedir}/process/course-java-core.adoc[leveloffset=1]
+include::{includedir}/process/course-java-core/index.adoc[leveloffset=1]

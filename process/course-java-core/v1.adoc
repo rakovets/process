@@ -1,12 +1,5 @@
-= Course 'Java Core'
-:imagesdir: ../assets/img
-
-== Terminologies and abbreviations.
-
-* *GUI* - *Graphical User Interface*/*Графический интерфейс пользователя*.
-* *fork* - сделать копию данного репозитория в свои репозитории.
-* *branch*/*ветка* - параллельная, независимая копия кода.
-* *remote repository* - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).
+= v1
+:imagesdir: ../../assets/img/course-java-core
 
 == Intro
 
@@ -20,28 +13,7 @@
 * Выполнение задания по какой-то `theme` происходит ТОЛЬКО в соответствующем `branch`.
 * Теоретический материал будет в печатном виде и в виде онлайн-документации (link:https://wiki-gl.dmitryrakovets.com/[wiki]).
 
-== Terminologies and abbreviations.
-
-* *GUI* - *Graphical User Interface*/*Графический интерфейс пользователя*.
-* *fork* - сделать копию данного репозитория в свои репозитории.
-* *remote repository* - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).
-
 == Processes
-
-=== Beginner lessons (First lesson)
-
-WARNING: Первое задание не является образцом заданий, которые будут выполняться в дальнейшем. Действия или шаги, которые будут выполняться в нем, необходимы для более глубокого понимания процесса работы с исходным java кодом. По мере освоение нового материала, будут использоваться более продвинутые техники и инструменты.
-
-* Установить link:https://youtu.be/ilhpwkcvEo0[OpenJDK 11^]
-* Сделать *fork* репозитория link:https://github.com/rakovets/course-java-core[`course-java-core`^]
-* Выполнить задание 'Intro' из этого репозитория:
-** Написать код.
-** Скомпилировать.
-** Запустить программу.
-** Убедиться в ее корректной работе.
-** Загрузить исходный код программы в репозиторий, который Вы получили после *fork*, с помощью *GUI* web-сервиса *GitHub*.
-
-NOTE: Для корректного выполнения задания следует посмотреть видео link:ttps://youtu.be/Li40OBvq5Tg[How to do first homework?^].
 
 === Elementary lessons (2-nd - 6-th lesson)
 
@@ -56,7 +28,7 @@ NOTE: Для корректного выполнения задания след
 ==== Процесс работы над заданиями/темами.
 
 .Схема процесса работы над заданиями/темами:
-image::process.svg[Process]
+image::v1.svg[Process]
 
 * *TO DO*
 ** после окончания занятия по какой-то теме, дается практическое задание по этой теме
@@ -97,13 +69,3 @@ image::process.svg[Process]
 ** Git
 * Добавить в *Network* одногруппников и тренера.
 * Подтвердить навыки одногруппников и тренера.
-
-== Software
-
-* link:https://jdk.java.net/java-se-ri/11[OpenJDK 11]
-* link:https://www.jetbrains.com/idea/download[IntelliJ IDEA Community Edition]
-* link:https://git-scm.com/[Git]
-
-== Plugins for IntelliJ IDEA
-
-* link:https://plugins.jetbrains.com/plugin/7391-asciidoc[AsciiDoc]
