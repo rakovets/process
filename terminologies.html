@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.12">
-<title>Course 'Java Core'</title>
+<title>Terminologies</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -440,335 +440,32 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Course 'Java Core'</h1>
+<h1>Terminologies</h1>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_terminologies_and_abbreviations">Terminologies and abbreviations.</h2>
-<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
 <p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
 </li>
 <li>
-<p><strong>fork</strong> - сделать копию данного репозитория в свои репозитории.</p>
-</li>
-<li>
-<p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода.</p>
-</li>
-<li>
-<p><strong>remote repository</strong> - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_intro">Intro</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Программное обеспечение, которое будет использоваться в процессе, находится в блоке <strong>Software</strong>.</p>
-</li>
-<li>
-<p>Задания будут выполняться в репозиториях:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><code>course-java-core</code></p>
-</li>
-<li>
-<p><code>course-java-design</code></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>По мере необходимости делаем <strong>fork</strong> и ставим <strong>star</strong> для соответствующего репозитория.</p>
-</li>
-<li>
-<p><strong>One lesson</strong> ~ <strong>One or more themes</strong> ~ <strong>Many practice tasks</strong> ~ <strong>One branch with theme name</strong>.</p>
-</li>
-<li>
-<p><strong>Branch</strong> (ветка) для <strong>theme</strong> (тема) содержит стартовый код для текущей темы.</p>
-</li>
-<li>
-<p>Выполнение задания по какой-то <code>theme</code> происходит ТОЛЬКО в соответствующем <code>branch</code>.</p>
-</li>
-<li>
-<p>Теоретический материал будет в печатном виде и в виде онлайн-документации (<a href="https://wiki-gl.dmitryrakovets.com/">wiki</a>).</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_terminologies_and_abbreviations_2">Terminologies and abbreviations.</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
+<p><strong>repository</strong>/<strong>репозиторий</strong> - отдельная директория для хранения кода, использующая для контроля версий <strong>git</strong>.</p>
 </li>
 <li>
 <p><strong>fork</strong> - сделать копию данного репозитория в свои репозитории.</p>
 </li>
 <li>
+<p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода в данном репозитории.</p>
+</li>
+<li>
 <p><strong>remote repository</strong> - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).</p>
 </li>
 </ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_processes">Processes</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_beginner_lessons_first_lesson">Beginner lessons (First lesson)</h3>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Warning</div>
-</td>
-<td class="content">
-Первое задание не является образцом заданий, которые будут выполняться в дальнейшем. Действия или шаги, которые будут выполняться в нем, необходимы для более глубокого понимания процесса работы с исходным java кодом. По мере освоение нового материала, будут использоваться более продвинутые техники и инструменты.
-</td>
-</tr>
-</table>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Установить <a href="https://youtu.be/ilhpwkcvEo0" target="_blank" rel="noopener">OpenJDK 11</a></p>
-</li>
-<li>
-<p>Сделать <strong>fork</strong> репозитория <a href="https://github.com/rakovets/course-java-core" target="_blank" rel="noopener"><code>course-java-core</code></a></p>
-</li>
-<li>
-<p>Выполнить задание 'Intro' из этого репозитория:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Написать код.</p>
-</li>
-<li>
-<p>Скомпилировать.</p>
-</li>
-<li>
-<p>Запустить программу.</p>
-</li>
-<li>
-<p>Убедиться в ее корректной работе.</p>
-</li>
-<li>
-<p>Загрузить исходный код программы в репозиторий, который Вы получили после <strong>fork</strong>, с помощью <strong>GUI</strong> web-сервиса <strong>GitHub</strong>.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-Для корректного выполнения задания следует посмотреть видео <a href="ttps://youtu.be/Li40OBvq5Tg" target="_blank" rel="noopener">How to do first homework?</a>.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_elementary_lessons_2_nd_6_th_lesson">Elementary lessons (2-nd - 6-th lesson)</h3>
-<div class="paragraph">
-<p>Основные концепции:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>На выполнение задания для темы отводится 6 дней, следующих за днем когда занятие по этой теме состоялось.</p>
-</li>
-<li>
-<p>Работа с <strong>Git</strong> осуществляется с помощью <strong>GUI</strong> в <strong>Intellij IDEA</strong>.</p>
-</li>
-<li>
-<p>Для проверки правильности выполнения задания, запускаются соответствующие <strong>unit-tests</strong>.</p>
-</li>
-<li>
-<p>После выполнения одного <strong>task</strong> требуется сделать <strong>commit</strong> этого <strong>task</strong> с понятным описание.</p>
-</li>
-<li>
-<p>После выполнения заданий по текущей теме (всех или тех, с которыми справились), следует сделать <strong>push</strong> в <strong>remote repository</strong></p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_процесс_работы_над_заданиямитемами">Процесс работы над заданиями/темами.</h4>
-<div class="imageblock">
-<div class="content">
-<img src="../assets/img/process.svg" alt="Process">
-</div>
-<div class="title">Figure 1. Схема процесса работы над заданиями/темами:</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>TO DO</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>после окончания занятия по какой-то теме, дается практическое задание по этой теме</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>IN PROGRESS</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>прочитать теоретический материал (feedback: theory test with Google Form; влияет на GRADE)</p>
-</li>
-<li>
-<p>выполнить задания предложенные преподавателем (feedback: unit-tests, manual review with GitHub; влияет на GRADE):</p>
-</li>
-<li>
-<p>выполнить задания в рабочей тетради (контроль: manual review with trainer, не влияет на GRADE)</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>TO REVIEW</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Сделать <strong>Pull Request</strong> в соответствующую ветку repository преподавателя.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>TO FIX</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Если после <strong>code review</strong> есть замечания по коду, то их необходимо устранить.</p>
-</li>
-<li>
-<p>Если не все задания были выполнены, то следует разобраться в правильно выполненном задании и реализовать его.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>APPROVED</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Проведен <strong>code review</strong> и все задания выполнены правильно, без значительных недочетов.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>DONE</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Все необходимые действия (<strong>code review</strong>, выставление отметок, закрытие <strong>PR</strong> и т.д.) над данным задание выполнены.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_intermediate_lessons_other_lessons">Intermediate lessons (Other lessons)</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_last_lesson">Last lesson</h3>
-<div class="sect3">
-<h4 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Оформить текущее место работы: <code>IT academy</code>, <code>Trainee</code></p>
-</li>
-<li>
-<p>Добавить навыки:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Java</p>
-</li>
-<li>
-<p>OOP</p>
-</li>
-<li>
-<p>JUnit</p>
-</li>
-<li>
-<p>Git</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Добавить в <strong>Network</strong> одногруппников и тренера.</p>
-</li>
-<li>
-<p>Подтвердить навыки одногруппников и тренера.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_software">Software</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://jdk.java.net/java-se-ri/11">OpenJDK 11</a></p>
-</li>
-<li>
-<p><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition</a></p>
-</li>
-<li>
-<p><a href="https://git-scm.com/">Git</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_plugins_for_intellij_idea">Plugins for IntelliJ IDEA</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://plugins.jetbrains.com/plugin/7391-asciidoc">AsciiDoc</a></p>
-</li>
-</ul>
-</div>
-</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-17 04:17:41 UTC
+Last updated 2021-03-17 04:43:09 UTC
 </div>
 </div>
 </body>

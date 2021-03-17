@@ -1,0 +1,15 @@
+= Tools
+
+== Software
+
+* link:https://jdk.java.net/java-se-ri/11[OpenJDK 11]
+* link:https://www.jetbrains.com/idea/download[IntelliJ IDEA Community Edition]
+* link:https://git-scm.com/[Git]
+
+== Plugins for IntelliJ IDEA
+
+* link:https://plugins.jetbrains.com/plugin/7391-asciidoc[AsciiDoc]
+
+== Libraries or Framework
+
+* JUnit 5

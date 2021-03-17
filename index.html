@@ -449,14 +449,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_communication">Communication</a></li>
 </ul>
 </li>
+<li><a href="#_terminologies">Terminologies</a></li>
 <li><a href="#_course_java_core">Course 'Java Core'</a>
 <ul class="sectlevel2">
-<li><a href="#_terminologies_and_abbreviations">Terminologies and abbreviations.</a></li>
-<li><a href="#_intro">Intro</a></li>
-<li><a href="#_terminologies_and_abbreviations_2">Terminologies and abbreviations.</a></li>
-<li><a href="#_processes">Processes</a></li>
-<li><a href="#_software">Software</a></li>
-<li><a href="#_plugins_for_intellij_idea">Plugins for IntelliJ IDEA</a></li>
+<li><a href="#_tools">Tools</a></li>
+<li><a href="#_v0_1">v0.1</a></li>
+<li><a href="#_v1">v1</a></li>
 </ul>
 </li>
 </ul>
@@ -608,20 +606,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_course_java_core">Course 'Java Core'</h2>
+<h2 id="_terminologies">Terminologies</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_terminologies_and_abbreviations">Terminologies and abbreviations.</h3>
 <div class="ulist">
 <ul>
 <li>
 <p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
 </li>
 <li>
+<p><strong>repository</strong>/<strong>репозиторий</strong> - отдельная директория для хранения кода, использующая для контроля версий <strong>git</strong>.</p>
+</li>
+<li>
 <p><strong>fork</strong> - сделать копию данного репозитория в свои репозитории.</p>
 </li>
 <li>
-<p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода.</p>
+<p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода в данном репозитории.</p>
 </li>
 <li>
 <p><strong>remote repository</strong> - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).</p>
@@ -629,8 +628,115 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_course_java_core">Course 'Java Core'</h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="_intro">Intro</h3>
+<h3 id="_tools">Tools</h3>
+<div class="sect3">
+<h4 id="_software">Software</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://jdk.java.net/java-se-ri/11">OpenJDK 11</a></p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition</a></p>
+</li>
+<li>
+<p><a href="https://git-scm.com/">Git</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_plugins_for_intellij_idea">Plugins for IntelliJ IDEA</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://plugins.jetbrains.com/plugin/7391-asciidoc">AsciiDoc</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_libraries_or_framework">Libraries or Framework</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>JUnit 5</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_v0_1">v0.1</h3>
+<div class="sect3">
+<h4 id="_beginner_lessons_first_lesson">Beginner lessons (First lesson)</h4>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+Первое задание не является образцом заданий, которые будут выполняться в дальнейшем. Действия или шаги, которые будут выполняться в нем, необходимы для более глубокого понимания процесса работы с <strong>source code</strong> (<strong>исходный код</strong>) на java. По мере освоение нового материала, будут использоваться более продвинутые техники и инструменты.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Установить <a href="https://youtu.be/ilhpwkcvEo0" target="_blank" rel="noopener">OpenJDK 11</a></p>
+</li>
+<li>
+<p>Сделать <strong>fork</strong> репозитория <a href="https://github.com/rakovets/course-java-core" target="_blank" rel="noopener"><code>course-java-core</code></a></p>
+</li>
+<li>
+<p>Выполнить задание 'Intro' из этого репозитория, для этого нужно:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Написать код.</p>
+</li>
+<li>
+<p>Скомпилировать.</p>
+</li>
+<li>
+<p>Запустить программу.</p>
+</li>
+<li>
+<p>Убедиться в ее корректной работе.</p>
+</li>
+<li>
+<p>Загрузить исходный код программы в репозиторий, который Вы получили после <strong>fork</strong>, в ветку <code>intro</code> с помощью <strong>GUI</strong> web-сервиса <strong>GitHub</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Для корректного выполнения задания следует посмотреть видео <a href="ttps://youtu.be/Li40OBvq5Tg" target="_blank" rel="noopener">How to do first homework?</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_v1">v1</h3>
+<div class="sect3">
+<h4 id="_intro">Intro</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -667,85 +773,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_terminologies_and_abbreviations_2">Terminologies and abbreviations.</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
-</li>
-<li>
-<p><strong>fork</strong> - сделать копию данного репозитория в свои репозитории.</p>
-</li>
-<li>
-<p><strong>remote repository</strong> - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_processes">Processes</h3>
 <div class="sect3">
-<h4 id="_beginner_lessons_first_lesson">Beginner lessons (First lesson)</h4>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Warning</div>
-</td>
-<td class="content">
-Первое задание не является образцом заданий, которые будут выполняться в дальнейшем. Действия или шаги, которые будут выполняться в нем, необходимы для более глубокого понимания процесса работы с исходным java кодом. По мере освоение нового материала, будут использоваться более продвинутые техники и инструменты.
-</td>
-</tr>
-</table>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Установить <a href="https://youtu.be/ilhpwkcvEo0" target="_blank" rel="noopener">OpenJDK 11</a></p>
-</li>
-<li>
-<p>Сделать <strong>fork</strong> репозитория <a href="https://github.com/rakovets/course-java-core" target="_blank" rel="noopener"><code>course-java-core</code></a></p>
-</li>
-<li>
-<p>Выполнить задание 'Intro' из этого репозитория:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Написать код.</p>
-</li>
-<li>
-<p>Скомпилировать.</p>
-</li>
-<li>
-<p>Запустить программу.</p>
-</li>
-<li>
-<p>Убедиться в ее корректной работе.</p>
-</li>
-<li>
-<p>Загрузить исходный код программы в репозиторий, который Вы получили после <strong>fork</strong>, с помощью <strong>GUI</strong> web-сервиса <strong>GitHub</strong>.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-Для корректного выполнения задания следует посмотреть видео <a href="ttps://youtu.be/Li40OBvq5Tg" target="_blank" rel="noopener">How to do first homework?</a>.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_elementary_lessons_2_nd_6_th_lesson">Elementary lessons (2-nd - 6-th lesson)</h4>
+<h4 id="_processes">Processes</h4>
+<div class="sect4">
+<h5 id="_elementary_lessons_2_nd_6_th_lesson">Elementary lessons (2-nd - 6-th lesson)</h5>
 <div class="paragraph">
 <p>Основные концепции:</p>
 </div>
@@ -768,11 +799,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-<div class="sect4">
-<h5 id="_процесс_работы_над_заданиямитемами">Процесс работы над заданиями/темами.</h5>
+<div class="sect5">
+<h6 id="_процесс_работы_над_заданиямитемами">Процесс работы над заданиями/темами.</h6>
 <div class="imageblock">
 <div class="content">
-<img src="../assets/img/process.svg" alt="Process">
+<img src="../../assets/img/course-java-core/v1.svg" alt="Process">
 </div>
 <div class="title">Figure 1. Схема процесса работы над заданиями/темами:</div>
 </div>
@@ -851,14 +882,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_intermediate_lessons_other_lessons">Intermediate lessons (Other lessons)</h4>
+<div class="sect4">
+<h5 id="_intermediate_lessons_other_lessons">Intermediate lessons (Other lessons)</h5>
 
 </div>
-<div class="sect3">
-<h4 id="_last_lesson">Last lesson</h4>
 <div class="sect4">
-<h5 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h5>
+<h5 id="_last_lesson">Last lesson</h5>
+<div class="sect5">
+<h6 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h6>
 <div class="ulist">
 <ul>
 <li>
@@ -894,38 +925,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_software">Software</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://jdk.java.net/java-se-ri/11">OpenJDK 11</a></p>
-</li>
-<li>
-<p><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition</a></p>
-</li>
-<li>
-<p><a href="https://git-scm.com/">Git</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_plugins_for_intellij_idea">Plugins for IntelliJ IDEA</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://plugins.jetbrains.com/plugin/7391-asciidoc">AsciiDoc</a></p>
-</li>
-</ul>
-</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-17 04:17:41 UTC
+Last updated 2021-03-17 04:43:09 UTC
 </div>
 </div>
 </body>
