@@ -24,8 +24,8 @@
 === Google Account
 
 * Зарегистрироваться.
+* Отправить сообщение тренеру в *Telegram*, которое содержит *email* привязанный к Вашему *Google Account*.
 * Подписаться на *YouTube* канал: link:https://www.youtube.com/channel/UCIztUGTxSCyqksE3HxFgI_w[Dmitry Rakovets^].
-* Отправить сообщение тренеру в *Telegram*, которое содержит Ваш *gmail* (email для *Google Account*).
 * Ожидать доступа к директории на *Google Drive*, которая содержит:
 ** электронный журнал
 ** презентации
@@ -34,8 +34,8 @@
 === GitHub
 
 * Зарегистрироваться.
-* Подписаться на пользователя: link:https://www.github.com/rakovets[Dmitry Rakovets^].
 * Отправить сообщение тренеру в *Telegram*, которое содержит ссылку на Ваш *GitHub* профиль.
+* Подписаться на пользователя: link:https://www.github.com/rakovets[Dmitry Rakovets^].
 * При использовании чужих репозиториев или кода из них, хорошей практикой считается ставить *star* (*like*) для этого репозитория.
 
 === LinkedIn
