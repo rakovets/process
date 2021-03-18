@@ -449,12 +449,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_communication">Communication</a></li>
 </ul>
 </li>
-<li><a href="#_terminologies">Terminologies</a></li>
+<li><a href="#_terminologies">Terminologies</a>
+<ul class="sectlevel2">
+<li><a href="#_abbreviations">Abbreviations</a></li>
+<li><a href="#_definitions">Definitions</a></li>
+</ul>
+</li>
 <li><a href="#_course_java_core">Course 'Java Core'</a>
 <ul class="sectlevel2">
 <li><a href="#_tools">Tools</a></li>
 <li><a href="#_v0_1">v0.1</a></li>
 <li><a href="#_v1">v1</a></li>
+<li><a href="#_v2">v2</a></li>
+<li><a href="#_v3">v3</a></li>
 </ul>
 </li>
 </ul>
@@ -611,24 +618,52 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_terminologies">Terminologies</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_abbreviations">Abbreviations</h3>
 <div class="ulist">
 <ul>
 <li>
 <p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
 </li>
 <li>
-<p><strong>repository</strong>/<strong>репозиторий</strong> - отдельная директория для хранения кода, использующая для контроля версий <strong>git</strong>.</p>
+<p><strong>IDE</strong> - <strong>Integrated Development Environment</strong>/<strong>Интегрированная среда разработки</strong></p>
 </li>
 <li>
-<p><strong>fork</strong> - сделать копию данного репозитория в свои репозитории.</p>
+<p><strong>MR</strong> - <strong>Merge Request</strong>/<strong>Запрос на слияние</strong>.</p>
 </li>
+<li>
+<p><strong>PR</strong> - <strong>Pull Request</strong>/<strong>Запрос на слияние</strong>.</p>
+</li>
+<li>
+<p><strong>VCS</strong> - <strong>Version Control System</strong>/<strong>Система Контроля Версий</strong>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_definitions">Definitions</h3>
+<div class="ulist">
+<ul>
 <li>
 <p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода в данном репозитории.</p>
 </li>
 <li>
-<p><strong>remote repository</strong> - удаленный репозиторий, репозиторий который находится у некоторого провайдера для размещения исходного кода (например: GitLab, GitHub, Bitbucket).</p>
+<p><strong>commit</strong> - фиксирование изменений в <strong>local repository</strong>.</p>
+</li>
+<li>
+<p><strong>fork</strong> - сделать копию данного <strong>repository</strong> в свои <strong>repositories</strong> на git-hosting.</p>
+</li>
+<li>
+<p><strong>git-hosting</strong> - внешний специальный сервис для хранения и работы с <strong>git-repositories</strong>.</p>
+</li>
+<li>
+<p><strong>local repository</strong>/<strong>локальный репозиторий</strong> - отдельная директория для хранения кода и его истории, где для контроля версий используется <strong>git</strong>.</p>
+</li>
+<li>
+<p><strong>remote repository</strong>/<strong>удаленный репозиторий</strong> - репозиторий который находится у некоторого провайдера для размещения исходного кода (например: <strong>GitLab</strong>, <strong>GitHub</strong>, <strong>Bitbucket</strong>).</p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -676,6 +711,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect2">
 <h3 id="_v0_1">v0.1</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>IDE</strong>: любой текстовый редактор.</p>
+</li>
+<li>
+<p><strong>VCS</strong>: загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> <strong>GitHub</strong>.</p>
+</li>
+</ul>
+</div>
 <div class="sect3">
 <h4 id="_beginner_lessons_first_lesson">Beginner lessons (First lesson)</h4>
 <div class="admonitionblock warning">
@@ -741,72 +786,44 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect2">
 <h3 id="_v1">v1</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>IDE</strong>: IntelliJ IDEA Community Edition.</p>
+</li>
+<li>
+<p><strong>VCS</strong>: работа с локальным git-репозиторием и загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> текущей <strong>IDE</strong>.</p>
+</li>
+</ul>
+</div>
 <div class="sect3">
 <h4 id="_intro">Intro</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>Программное обеспечение, которое будет использоваться в процессе, находится в блоке <strong>Software</strong>.</p>
+<p><strong>Одно занятие</strong> ~ <strong>Одна или больше тем</strong> ~ <strong>Много практических заданий</strong> ~ <strong>Один branch, которая содержит стартовый код для темы</strong>.</p>
 </li>
 <li>
-<p>Задания будут выполняться в репозиториях:</p>
+<p>Теоретический материал:</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>course-java-core</code></p>
+<p>печатное учебное пособие</p>
 </li>
 <li>
-<p><code>course-java-design</code></p>
+<p><a href="https://wiki-gl.dmitryrakovets.com/">wiki</a></p>
+</li>
+<li>
+<p>презентации с занятий</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>По мере необходимости делаем <strong>fork</strong> и ставим <strong>star</strong> для соответствующего репозитория.</p>
-</li>
-<li>
-<p><strong>One lesson</strong> ~ <strong>One or more themes</strong> ~ <strong>Many practice tasks</strong> ~ <strong>One branch with theme name</strong>.</p>
-</li>
-<li>
-<p><strong>Branch</strong> (ветка) для <strong>theme</strong> (тема) содержит стартовый код для текущей темы.</p>
-</li>
-<li>
-<p>Выполнение задания по какой-то <code>theme</code> происходит ТОЛЬКО в соответствующем <code>branch</code>.</p>
-</li>
-<li>
-<p>Теоретический материал будет в печатном виде и в виде онлайн-документации (<a href="https://wiki-gl.dmitryrakovets.com/">wiki</a>).</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_processes">Processes</h4>
-<div class="sect4">
-<h5 id="_elementary_lessons_2_nd_6_th_lesson">Elementary lessons (2-nd - 6-th lesson)</h5>
-<div class="paragraph">
-<p>Основные концепции:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>На выполнение задания для темы отводится 6 дней, следующих за днем когда занятие по этой теме состоялось.</p>
-</li>
-<li>
-<p>Работа с <strong>Git</strong> осуществляется с помощью <strong>GUI</strong> в <strong>Intellij IDEA</strong>.</p>
-</li>
-<li>
-<p>Для проверки правильности выполнения задания, запускаются соответствующие <strong>unit-tests</strong>.</p>
-</li>
-<li>
-<p>После выполнения одного <strong>task</strong> требуется сделать <strong>commit</strong> этого <strong>task</strong> с понятным описание.</p>
-</li>
-<li>
-<p>После выполнения заданий по текущей теме (всех или тех, с которыми справились), следует сделать <strong>push</strong> в <strong>remote repository</strong></p>
-</li>
-</ul>
-</div>
-<div class="sect5">
-<h6 id="_процесс_работы_над_заданиямитемами">Процесс работы над заданиями/темами.</h6>
+<h4 id="_elementary_lessons">Elementary lessons</h4>
 <div class="imageblock">
 <div class="content">
 <img src="../../assets/img/course-java-core/v1.svg" alt="Process">
@@ -820,7 +837,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>после окончания занятия по какой-то теме, дается практическое задание по этой теме</p>
+<p>После окончания занятия по какой-то теме, дается практическое задание по этой теме.</p>
+</li>
+<li>
+<p>На выполнение задания отводится 6 дней, следующих за днем когда занятие по этой теме состоялось.</p>
 </li>
 </ul>
 </div>
@@ -830,13 +850,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>прочитать теоретический материал (feedback: theory test with Google Form; влияет на GRADE)</p>
+<p>Прочитать теоретический материал (<strong>feedback</strong>: тест по теории с помощью <strong>Google Forms</strong>; влияет на GRADE).</p>
 </li>
 <li>
-<p>выполнить задания предложенные преподавателем (feedback: unit-tests, manual review with GitHub; влияет на GRADE):</p>
+<p>Выполнить задания предложенные преподавателем (<strong>feedback</strong>: unit-tests, code review с помощью <strong>GitHub</strong>; влияет на GRADE):</p>
+<div class="ulist">
+<ul>
+<li>
+<p>После выполнения одного <strong>task</strong>/<strong>specification of task</strong>/<strong>project</strong> требуется сделать <strong>commit</strong> с понятным описание фиксируемых изменений.</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p>выполнить задания в рабочей тетради (контроль: manual review with trainer, не влияет на GRADE)</p>
+<p>Опционально выполнить задания в рабочей тетради (<strong>feedback</strong>: code review на занятии, не влияет на GRADE).</p>
 </li>
 </ul>
 </div>
@@ -846,11 +873,30 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Сделать <strong>Pull Request</strong> в соответствующую ветку repository преподавателя.</p>
+<p>После выполнения заданий по текущей теме (всех или только тех, с которыми справились или успели сделать), следует сделать <strong>push</strong> в <strong>remote repository</strong>.</p>
+</li>
+<li>
+<p>Сделать <strong>Pull Request</strong> в соответствующий тренерский repository и branch.</p>
 </li>
 </ul>
 </div>
 </li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+Часто для <strong>Pull Request</strong>/<strong>Merge Request</strong> проектов (чаще open-source), выставляют набор требований, которым он должен соответствовать. Поэтому следует придерживаться этих требований, для того, что бы <strong>PR</strong>/<strong>MR</strong> не был отклонен, по причине не соответствия этим требованиям.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p><strong>TO FIX</strong></p>
 <div class="ulist">
@@ -886,16 +932,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Для корректного выполнения задания следует посмотреть видео <a href="https://youtu.be/Hda0ZtG4ho0" target="_blank" rel="noopener">How to do homework?</a>.
+</td>
+</tr>
+</table>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_intermediate_lessons_other_lessons">Intermediate lessons (Other lessons)</h5>
+</div>
+<div class="sect2">
+<h3 id="_v2">v2</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>IDE</strong>: IntelliJ IDEA Community Edition.</p>
+</li>
+<li>
+<p><strong>VCS</strong>: работа с локальным git-репозиторием и загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> текущей <strong>IDE</strong>.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_intermediate_lessons">Intermediate lessons</h4>
 
 </div>
+</div>
+<div class="sect2">
+<h3 id="_v3">v3</h3>
+<div class="sect3">
+<h4 id="_last_lesson">Last lesson</h4>
 <div class="sect4">
-<h5 id="_last_lesson">Last lesson</h5>
-<div class="sect5">
-<h6 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h6>
+<h5 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -934,10 +1007,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-17 13:31:56 UTC
+Last updated 2021-03-18 04:27:05 UTC
 </div>
 </div>
 </body>

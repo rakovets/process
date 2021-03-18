@@ -1,0 +1,9 @@
+= v2
+:imagesdir: ../../assets/img/course-java-core
+
+* *IDE*: IntelliJ IDEA Community Edition.
+* *VCS*: работа с локальным git-репозиторием и загрузка в удаленный git-репозиторий с помощью *GUI* текущей *IDE*.
+
+== Intermediate lessons
+
+//todo
