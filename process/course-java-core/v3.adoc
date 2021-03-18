@@ -1,0 +1,17 @@
+= v3
+:imagesdir: ../../assets/img/course-java-core
+
+== Last lesson
+
+//todo
+
+=== Прокачиваем аккаунт на LinkedIn
+
+* Оформить текущее место работы: `IT academy`, `Trainee`
+* Добавить навыки:
+** Java
+** OOP
+** JUnit
+** Git
+* Добавить в *Network* одногруппников и тренера.
+* Подтвердить навыки одногруппников и тренера.
