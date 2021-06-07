@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.15">
-<title>Process</title>
+<title>Course 'Java for Back end'</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -435,569 +435,188 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
-<h1>Process</h1>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_common">Common</a>
-<ul class="sectlevel2">
-<li><a href="#_communication">Communication</a></li>
-</ul>
-</li>
-<li><a href="#_terminologies">Terminologies</a>
-<ul class="sectlevel2">
-<li><a href="#_abbreviations">Abbreviations</a></li>
-<li><a href="#_definitions">Definitions</a></li>
-</ul>
-</li>
-<li><a href="#_course_java_core">Course 'Java Core'</a>
-<ul class="sectlevel2">
-<li><a href="#_tools">Tools</a></li>
-<li><a href="#_v0_1">v0.1</a></li>
-<li><a href="#_v1">v1</a></li>
-<li><a href="#_v2">v2</a></li>
-<li><a href="#_v3">v3</a></li>
-</ul>
-</li>
-</ul>
-</div>
+<h1>Course 'Java for Back end'</h1>
 </div>
 <div id="content">
-<div id="preamble">
+<div class="sect1">
+<h2 id="_pet_project">Pet-project</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Данная документация описывает процесс взаимодействия во время занятий. Она содержит:</p>
+<p>Данный проект является инструкцией по работе над учебным проектом.</p>
 </div>
+<div class="sect2">
+<h3 id="_цель">Цель</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>общий процесс, независящий от курса</p>
-</li>
-<li>
-<p>процессы взаимодействия для конкретного курса</p>
+<p>упростить процесс разработки собственного проекта</p>
 </li>
 </ul>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_задачи">Задачи</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>познакомить с этапами разработки продукта на базе общепринятых методологий;</p>
+</li>
+<li>
+<p>познакомить с инструментами, которые позволяет упростить работу на некоторых этапах разработки;</p>
+</li>
+<li>
+<p>выработать правильный процесс работы над конкретными задачами.</p>
+</li>
+</ul>
 </div>
-<div class="sect1">
-<h2 id="_common">Common</h2>
-<div class="sectionbody">
+</div>
+<div class="sect2">
+<h3 id="_этапы_разработки">Этапы разработки</h3>
 <div class="paragraph">
-<p>Данный блок содержит общие процессы, независимо от курса.</p>
+<p>Этапы разработки подразумевают наличие какой-то общей идеи. Реализация этой идеи, в виде программного продукта, решит какую-то реальную проблему клиентов данного программного продукта.</p>
 </div>
-<div class="sect2">
-<h3 id="_communication">Communication</h3>
 <div class="paragraph">
-<p>В процессе занятий необходимо взаимодействовать как с тренером, так и с другими участниками. Для этого будут использоваться инструменты:</p>
+<p>Все этапы, описанные ниже, подразумеваю циклическое исполнение, а результатом каждого цикла будет являться инкремент (т.е. какая-то минимальная работающая функциональность):</p>
+</div>
+<div class="paragraph">
+<p>Этапы разработки:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Telegram</strong> - для ежедневного общения и объявлений.</p>
+<p>планирование</p>
 </li>
 <li>
-<p><strong>Google Account</strong> - для доступа к журналу, презентациям, видео на <strong>YouTube</strong> и прочим артефактам.</p>
+<p>разработка UML диаграмм классов</p>
 </li>
 <li>
-<p><strong>GitHub</strong> - для хранения кода и любых взаимодействий относительно кода (т.е. практических заданий).</p>
+<p>разработка структуры БД</p>
 </li>
 <li>
-<p><strong>LinkedIn</strong> - для взаимодействия после курса (сеть профессиональных контактов).</p>
+<p>разбиение запланированной функциональности на задачи</p>
+</li>
+<li>
+<p>реализация задач</p>
+</li>
+<li>
+<p>тестирование задач</p>
 </li>
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_telegram">Telegram</h4>
-<div class="ulist">
-<ul>
+<h4 id="_планирование">Планирование</h4>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p>Зарегистрироваться.</p>
+<p>Придумать идею для функциональности, которая сделает <strong>product</strong> лучше.</p>
 </li>
 <li>
-<p>Отправить сообщение тренеру, которое содержит Ваше имя и фамилию на АНГЛИЙСКОМ языке, используя его никнейм <code>@rakovets</code> или номер <code>+375296678238</code>.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>В случае возникновения проблем с поиском, напишите тренеру на email <code>dmitryrakovets@gmail.com</code>.</p>
+<p>Выделить <strong>epics</strong> для этой идеи, т.е. разбить ее на несколько атомарных глобальных функций.</p>
 </li>
-</ul>
+<li>
+<p>Для каждого <strong>epic</strong> выделить <strong>stories</strong>, реализация которых позволит считать данную функциональность завершенной. Пример <strong>story</strong>:</p>
+</li>
+</ol>
 </div>
-</li>
-<li>
-<p>Временно отключить настройки политики по добавлению в группу, так как тренер не сможет добавить в группу.</p>
-</li>
-<li>
-<p>Ожидать добавления в 2 группы:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><code>${group-name}-dev</code> - используется для ежедневного взаимодействия в группе.</p>
-</li>
-<li>
-<p><code>${group-name}-prod</code> - используется для объявлений и решения критических вопросов/проблем, которые не могли быть решены в первой, так как тренер мог не увидеть/прочитать Ваше сообщение.</p>
-</li>
-</ul>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p><em>As a</em> <strong>user</strong>, <em>I want to</em> <strong>register in the service</strong> <em>so that I can</em> <strong>create my own garage</strong></p>
 </div>
-</li>
-</ul>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Для планирования можно использовать различные инструменты. Например, можно использовать сервис для построения <strong>Mind Map</strong>: <a href="https://coggle.it">coggle</a></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_google_account">Google Account</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Зарегистрироваться.</p>
-</li>
-<li>
-<p>Отправить сообщение тренеру в <strong>Telegram</strong>, которое содержит <strong>email</strong> привязанный к Вашему <strong>Google Account</strong>.</p>
-</li>
-<li>
-<p>Подписаться на <strong>YouTube</strong> канал: <a href="https://www.youtube.com/channel/UCIztUGTxSCyqksE3HxFgI_w" target="_blank" rel="noopener">Dmitry Rakovets</a>.</p>
-</li>
-<li>
-<p>Ожидать доступа к директории на <strong>Google Drive</strong>, которая содержит:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>электронный журнал</p>
-</li>
-<li>
-<p>презентации</p>
-</li>
-<li>
-<p>прочие артефакты</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
+<h4 id="_разработка_uml_диаграмм_классов">Разработка UML диаграмм классов</h4>
+<div class="paragraph">
+<p>Для разработки UML диаграмм можно использовать различные инструменты. Например, можно использовать сервис <a href="https://cdraw.io">draw.io</a></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_github">GitHub</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Зарегистрироваться.</p>
-</li>
-<li>
-<p>Отправить сообщение тренеру в <strong>Telegram</strong>, которое содержит ссылку на Ваш <strong>GitHub</strong> профиль.</p>
-</li>
-<li>
-<p>Подписаться на пользователя: <a href="https://www.github.com/rakovets" target="_blank" rel="noopener">Dmitry Rakovets</a>.</p>
-</li>
-<li>
-<p>При использовании чужих репозиториев или кода из них, хорошей практикой считается ставить <strong>star</strong> (<strong>like</strong>) для этого репозитория.</p>
-</li>
-</ul>
+<h4 id="_разработка_структуры_бд">Разработка структуры БД</h4>
+<div class="paragraph">
+<p>Для разработки структуры БД можно использовать различные инструменты. Например, можно использовать сервис <a href="https://www.dbdesigner.net">DB DESIGNER</a></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_linkedin">LinkedIn</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Зарегистрироваться.</p>
-</li>
-<li>
-<p>Отправить <code>Connect</code> пользователю: <a href="https://www.linkedin.com/in/rakovets/" target="_blank" rel="noopener">Dmitry Rakovets</a>.</p>
-</li>
-</ul>
+<h4 id="_разбиение_запланированной_функциональности_на_задачи">Разбиение запланированной функциональности на задачи</h4>
+<div class="paragraph">
+<p>Далее идет процесс разбиения <strong>story</strong> для <strong>project</strong> на несколько <strong>ticket</strong> (задача) для разработки. На этом этапе на <strong>dashboard</strong> необходимого <strong>project</strong> в колонке <strong>To do</strong> создаются <strong>tickets</strong>, которые позволяют реализовать данную <strong>story</strong>. Как пример <strong>story</strong> <em>As a user, I want to register in the service so that I can create my own garage</em> потребует как минимум создания одного <strong>ticket</strong>:</p>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_terminologies">Terminologies</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_abbreviations">Abbreviations</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>GUI</strong> - <strong>Graphical User Interface</strong>/<strong>Графический интерфейс пользователя</strong>.</p>
-</li>
-<li>
-<p><strong>IDE</strong> - <strong>Integrated Development Environment</strong>/<strong>Интегрированная среда разработки</strong></p>
-</li>
-<li>
-<p><strong>MR</strong> - <strong>Merge Request</strong>/<strong>Запрос на слияние</strong>.</p>
-</li>
-<li>
-<p><strong>PR</strong> - <strong>Pull Request</strong>/<strong>Запрос на слияние</strong>.</p>
-</li>
-<li>
-<p><strong>VCS</strong> - <strong>Version Control System</strong>/<strong>Система Контроля Версий</strong>.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_definitions">Definitions</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>branch</strong>/<strong>ветка</strong> - параллельная, независимая копия кода в данном репозитории.</p>
-</li>
-<li>
-<p><strong>commit</strong> - фиксирование изменений в <strong>local repository</strong>.</p>
-</li>
-<li>
-<p><strong>fork</strong> - сделать копию данного <strong>repository</strong> в свои <strong>repositories</strong> на git-hosting.</p>
-</li>
-<li>
-<p><strong>git-hosting</strong> - внешний специальный сервис для хранения и работы с <strong>git-repositories</strong>.</p>
-</li>
-<li>
-<p><strong>local repository</strong>/<strong>локальный репозиторий</strong> - отдельная директория для хранения кода и его истории, где для контроля версий используется <strong>git</strong>.</p>
-</li>
-<li>
-<p><strong>remote repository</strong>/<strong>удаленный репозиторий</strong> - репозиторий который находится у некоторого провайдера для размещения исходного кода (например: <strong>GitLab</strong>, <strong>GitHub</strong>, <strong>Bitbucket</strong>).</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_course_java_core">Course 'Java Core'</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_tools">Tools</h3>
-<div class="sect3">
-<h4 id="_software">Software</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://jdk.java.net/java-se-ri/11">OpenJDK 11</a></p>
-</li>
-<li>
-<p><a href="https://www.jetbrains.com/idea/download">IntelliJ IDEA Community Edition</a></p>
-</li>
-<li>
-<p><a href="https://git-scm.com/">Git</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_plugins_for_intellij_idea">Plugins for IntelliJ IDEA</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://plugins.jetbrains.com/plugin/7391-asciidoc">AsciiDoc</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_libraries_or_framework">Libraries or Framework</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>JUnit 5</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_v0_1">v0.1</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>IDE</strong>: любой текстовый редактор.</p>
-</li>
-<li>
-<p><strong>VCS</strong>: загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> <strong>GitHub</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_beginner_lessons_first_lesson">Beginner lessons (First lesson)</h4>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Warning</div>
-</td>
-<td class="content">
-Первое задание не является образцом заданий, которые будут выполняться в дальнейшем. Действия или шаги, которые будут выполняться в нем, необходимы для более глубокого понимания процесса работы с <strong>source code</strong> (<strong>исходный код</strong>) на java. По мере освоение нового материала, будут использоваться более продвинутые техники и инструменты.
-</td>
-</tr>
-</table>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Установить <a href="https://youtu.be/ilhpwkcvEo0" target="_blank" rel="noopener">OpenJDK 11</a></p>
-</li>
-<li>
-<p>Сделать <strong>fork</strong> репозитория <a href="https://github.com/rakovets/course-java-core" target="_blank" rel="noopener"><code>course-java-core</code></a></p>
-</li>
-<li>
-<p>Выполнить задание 'Intro' из этого репозитория, для этого нужно:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Написать код.</p>
-</li>
-<li>
-<p>Скомпилировать.</p>
-</li>
-<li>
-<p>Запустить программу.</p>
-</li>
-<li>
-<p>Убедиться в ее корректной работе.</p>
-</li>
-<li>
-<p>Загрузить исходный код программы в репозиторий, который Вы получили после <strong>fork</strong>, в ветку <code>intro</code> с помощью <strong>GUI</strong> web-сервиса <strong>GitHub</strong>.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Прочитать теоретический материал по теме (источник: <a href="https://wiki-gl.dmitryrakovets.com/">wiki</a> и презентации).</p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-Для корректного выполнения задания следует посмотреть видео <a href="https://youtu.be/Li40OBvq5Tg" target="_blank" rel="noopener">How to do first homework?</a>.
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_v1">v1</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>IDE</strong>: IntelliJ IDEA Community Edition.</p>
-</li>
-<li>
-<p><strong>VCS</strong>: работа с локальным git-репозиторием и загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> текущей <strong>IDE</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_intro">Intro</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Одно занятие</strong> ~ <strong>Одна или больше тем</strong> ~ <strong>Много практических заданий</strong> ~ <strong>Один branch, который содержит стартовый код для темы</strong>.</p>
-</li>
-<li>
-<p>Теоретический материал:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>печатное учебное пособие</p>
-</li>
-<li>
-<p><a href="https://wiki-gl.dmitryrakovets.com/">wiki</a></p>
-</li>
-<li>
-<p>презентации с занятий</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_elementary_lessons">Elementary lessons</h4>
-<div class="imageblock">
+<div class="listingblock">
 <div class="content">
-<img src="../../assets/img/course-java-core/v1.svg" alt="Process">
-</div>
-<div class="title">Figure 1. Схема процесса работы над заданиями/темами:</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>TO DO</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>После окончания занятия по какой-то теме, дается практическое задание по этой теме.</p>
-</li>
-<li>
-<p>На выполнение задания отводится 6 дней, следующих за днем когда занятие по этой теме состоялось.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>IN PROGRESS</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Прочитать теоретический материал (<strong>feedback</strong>: тест по теории с помощью <strong>Google Forms</strong>; влияет на GRADE).</p>
-</li>
-<li>
-<p>Выполнить задания предложенные преподавателем (<strong>feedback</strong>: unit-tests, code review с помощью <strong>GitHub</strong>; влияет на GRADE):</p>
-<div class="ulist">
-<ul>
-<li>
-<p>После выполнения одного <strong>task</strong>/<strong>specification of task</strong>/<strong>project</strong> требуется сделать <strong>commit</strong> с понятным описание фиксируемых изменений.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Опционально выполнить задания в рабочей тетради (<strong>feedback</strong>: code review на занятии, не влияет на GRADE).</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>TO REVIEW</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>После выполнения заданий по текущей теме (всех или только тех, с которыми справились или успели сделать), следует сделать <strong>push</strong> в <strong>remote repository</strong>.</p>
-</li>
-<li>
-<p>Сделать <strong>Pull Request</strong> в соответствующий тренерский repository и branch.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Warning</div>
-</td>
-<td class="content">
-Часто для <strong>Pull Request</strong>/<strong>Merge Request</strong> проектов (чаще open-source), выставляют набор требований, которым он должен соответствовать. Поэтому следует придерживаться этих требований, для того, что бы <strong>PR</strong>/<strong>MR</strong> не был отклонен, по причине не соответствия этим требованиям.
-</td>
-</tr>
-</table>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>TO FIX</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Если после <strong>code review</strong> есть замечания по коду, то их необходимо устранить.</p>
-</li>
-<li>
-<p>Если не все задания были выполнены, то следует разобраться в правильно выполненном задании и реализовать его.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>APPROVED</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Проведен <strong>code review</strong> и все задания выполнены правильно, без значительных недочетов.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>DONE</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Все необходимые действия (<strong>code review</strong>, выставление отметок, закрытие <strong>PR</strong> и т.д.) над данным задание выполнены.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-Для корректного выполнения задания следует посмотреть видео <a href="https://youtu.be/Hda0ZtG4ho0" target="_blank" rel="noopener">How to do homework?</a>.
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_v2">v2</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>IDE</strong>: IntelliJ IDEA Community Edition.</p>
-</li>
-<li>
-<p><strong>VCS</strong>: работа с локальным git-репозиторием и загрузка в удаленный git-репозиторий с помощью <strong>GUI</strong> текущей <strong>IDE</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_intermediate_lessons">Intermediate lessons</h4>
+<pre>BS-1. feat: registration user
 
+- [ ] registration view
+- [ ] controller
+- [ ] service
+- [ ] repository
+- [ ] entity</pre>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_v3">v3</h3>
+<div class="paragraph">
+<p>Можно разбивать <strong>story</strong> на более мелкие <strong>tickets</strong>, в зависимости от сложности <strong>ticket</strong> и возможности команды параллельно работать над <strong>tickets</strong> для одной <strong>story</strong>, например:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>- BS-1. feat: create registration view
+- BS-2. feat: create registration controller
+- BS-3. feat: create registration service
+- BS-4. feat: create registration repository
+- BS-5. feat: create registration entity</pre>
+</div>
+</div>
+</div>
 <div class="sect3">
-<h4 id="_last_lesson">Last lesson</h4>
-<div class="sect4">
-<h5 id="_прокачиваем_аккаунт_на_linkedin">Прокачиваем аккаунт на LinkedIn</h5>
+<h4 id="_реализация_задач">Реализация задач</h4>
+<div class="paragraph">
+<p><strong>Ticket</strong> на этом этапе перемещается на <strong>dashboard</strong> для <strong>project</strong> из колонки <strong>To do</strong> в колонку <strong>In progress</strong> и с помощью таймера засекается время работы над задачей.</p>
+</div>
+<div class="paragraph">
+<p>При технической реализации задач обычно применяется документация или различные гайды тех технологий, которые используются в проекте. Примером может служить:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Оформить текущее место работы: <code>IT academy</code>, <code>Trainee</code></p>
+<p><a href="https://spring.io/guides">Spring Guides</a></p>
 </li>
 <li>
-<p>Добавить навыки:</p>
+<p><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/">Spring Framework Documentation</a></p>
+</li>
+<li>
+<p><a href="https://hibernate.org/orm/documentation/6.0/">Hibernate ORM. Documentation - 6.0</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Для решения проблем, которые могут возникнуть при реализации, использую любую поисковую систему. Чаще всего решения данных проблем можно найти на сервисе <a href="https://stackoverflow.com/">stackoverflow</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_тестирование_задач">Тестирование задач</h4>
+<div class="paragraph">
+<p>Разработчики, для тестирования новой или уже существующей функциональности:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Java</p>
+<p>пишут <strong>unit-tests</strong>, которые позволяют протестировать небольшую её часть;</p>
 </li>
 <li>
-<p>OOP</p>
+<p>применяют различные инструменты для модульных тестов. Например, используют <a href="https://www.postman.com/"><strong>Postman</strong></a> для тестирования <strong>API</strong> разработанного <strong>REST-service</strong>;</p>
 </li>
 <li>
-<p>JUnit</p>
-</li>
-<li>
-<p>Git</p>
+<p>проводят функциональное тестирование всего продукта. Фактически, эмулируют поведение клиента и смотрят как сервис реагирует на это.</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>Добавить в <strong>Network</strong> одногруппников и тренера.</p>
-</li>
-<li>
-<p>Подтвердить навыки одногруппников и тренера.</p>
-</li>
-</ul>
-</div>
+<div class="paragraph">
+<p>После этого этапа <strong>ticket</strong> перемещается на <strong>dashboard</strong> для <strong>project</strong> из колонки <strong>In progress</strong> в колонку <strong>Done</strong> и в конец описания этого <strong>ticket</strong> добавляется время затраченное на его реализацию и тестирование. Например, когда затраченное на <strong>ticket</strong> время 1 день (8 часов) и 4 часа, тогда делается запись <code>1d 4h</code>.</p>
 </div>
 </div>
 </div>
